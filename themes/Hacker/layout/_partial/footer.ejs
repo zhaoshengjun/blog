@@ -1,0 +1,19 @@
+<% if (config.author){ %>
+<div class="divider"></div>
+  <div class="bio">
+    <div class="avatar">
+      <img src="/images/avatar.png" alt="Sam Zhao" class="avatar">
+    </div>
+    <div class="author">
+      <p>Written by <b><i>
+      <%= config.author %> </i></b></p>
+      <p>Who lives and works in Brisbane QLD Australia, building useful things(hopefully).</p> 
+      <p>You can follow him on <a href="https://twitter.com/samzhaocn"> Twitter</a> or drop him a <a href="mailto:zhao.shengjun@gmail.com?Subject=Hi">email</a> and say "Hi".</p>   
+    </div>
+  </div>
+  <div>
+<% } %>
+<div class="site-info">
+  Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a> &copy;
+  <%= new Date().getFullYear() %>
+</div>
