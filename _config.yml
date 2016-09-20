@@ -70,3 +70,7 @@ theme: Hacker
 deploy:
   type: git
   repo: https://github.com/zhaoshengjun/zhaoshengjun.github.io
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+admin:
+  deployCommand: './deploy.sh'
